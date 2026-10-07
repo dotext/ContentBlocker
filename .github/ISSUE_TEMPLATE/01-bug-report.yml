@@ -5,6 +5,7 @@ body:
   - type: markdown
     attributes:
       value: Thanks for taking the time to fill out this bug report!
+ 
   - type: checkboxes
     attributes:
       label: Please answer the following questions for yourself before submitting an issue
@@ -15,14 +16,16 @@ body:
           required: true
         - label: I checked to make sure that this issue has not already been filed
           required: true
+
   - type: input
     id: app_version
     attributes:
       label: AdGuard Version
       description: What version of AdGuard Content Blocker are you running?
-      placeholder: For example, 2.8
+      placeholder: For example, 3.0
     validations:
       required: true
+ 
   - type: input
     id: br_version
     attributes:
@@ -40,6 +43,7 @@ body:
       placeholder: For example, Android 16
     validations:
       required: true
+
   - type: input
     id: customer_id
     attributes:
@@ -48,7 +52,7 @@ body:
       placeholder: Enter a ticket ID
     validations:
       required: false
-      
+
   - type: textarea
     id: what-happened
     attributes:
@@ -62,7 +66,7 @@ body:
         3.
     validations:
       required: true
-      
+
   - type: textarea
     id: how_it_should_be
     attributes:
@@ -70,7 +74,7 @@ body:
       placeholder: A clear and concise description of what you expected to happen.
     validations:
       required: false
-      
+
   - type: textarea
     id: how_it_is
     attributes:
@@ -78,7 +82,7 @@ body:
       placeholder: A clear description of what happened instead.
     validations:
       required: true
-      
+
   - type: textarea
     id: screens
     attributes:
@@ -92,10 +96,10 @@ body:
           <details><summary>Screenshot 1</summary>
           <!-- Paste screenshot below. -->
           
-
+          
           
           </details>
-      
+
   - type: textarea
     id: additional
     attributes:
